@@ -13,13 +13,15 @@
         "php": ">=5.4.0"
     },
     "autoload": {
-        "autoload-dev": {
-            "psr-0": { 
-                "lawiet\\src\\": "src/"
-            }
-        },
         "psr-4": {
-            "lawiet\\": ""
+            "lawiet\\": "",
+			"lawiet\\src\\": "src/"
         }
     }
+    "autoload-dev": {
+        "psr-0": { 
+            "lawiet\\": "",
+            "lawiet\\src\\": "src/"
+        }
+    },
 }

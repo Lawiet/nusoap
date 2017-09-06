@@ -2,7 +2,7 @@
     "name": "lawiet/nusoap",
     "type": "library",
     "description": "NuSOAP PHP library",
-    "keywords": ["soap","nusoap"],
+    "keywords": ["soap","nusoap","ws","webservices","web services","wsdl"],
     "license": "LGPLv2",
     "authors": [
         {

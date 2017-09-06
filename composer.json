@@ -15,7 +15,7 @@
     "autoload": {
         "psr-4": {
             "lawiet\\": "",
-			"lawiet\\src\\": "src/"
+            "lawiet\\src\\": "src/"
         }
     },
     "autoload-dev": {

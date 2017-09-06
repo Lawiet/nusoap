@@ -1,0 +1,26 @@
+{
+    "name": "lawiet/NuSoap",
+    "type": "library",
+    "description": "NuSOAP PHP library",
+    "keywords": ["soap","nusoap"],
+    "license": "LGPLv2",
+    "authors": [
+        {
+            "name": "Jorge Gonzalez",
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": ["src/"],
+		"autoload-dev": {
+			"psr-0": { 
+				"lawiet\\src\\": "src/"
+			}
+		},
+		"psr-4": {
+			"lawiet\\": ""
+		}
+    }
+}

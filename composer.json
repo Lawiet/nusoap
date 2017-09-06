@@ -13,7 +13,6 @@
         "php": ">=5.4.0"
     },
     "autoload": {
-        "classmap": ["src/"],
         "autoload-dev": {
             "psr-0": { 
                 "lawiet\\src\\": "src/"

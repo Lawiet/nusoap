@@ -1,5 +1,5 @@
 {
-    "name": "lawiet/NuSoap",
+    "name": "lawiet/nusoap",
     "type": "library",
     "description": "NuSOAP PHP library",
     "keywords": ["soap","nusoap"],

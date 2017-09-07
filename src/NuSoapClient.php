@@ -303,10 +303,11 @@ class NuSoapClient extends NuSoapBase {
             // fault?
             if (is_array($return) && isset($return['faultcode'])) {
                 $this->debug('got fault');
-                $this->setError($return['faultcode'] . ': ' . $return['faultstring']);
+                $this->setError($return['faultcode'] . ': ' . is_array($return['faultstring']) ? json_encode(", ", $return['faultstring']) : $return['faultstring'] );
                 $this->fault = TRUE;
                 foreach ($return as $k => $v) {
                     $this->$k = $v;
+		    $v = is_array($v) ? json_encode($v) : $v ;
                     $this->debug("$k = $v<br>");
                 }
                 return $return;
